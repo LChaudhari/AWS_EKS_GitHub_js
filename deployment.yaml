@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: tbcommerce
-          image: <Add AWS ECR Image ARN>
+          image: 176295807911.dkr.ecr.us-east-1.amazonaws.com/tbcommerce
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
